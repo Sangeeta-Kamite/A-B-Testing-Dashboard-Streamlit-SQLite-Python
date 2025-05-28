@@ -33,7 +33,7 @@ def perform_ab_test(df):
     return conversion_rate_a, conversion_rate_b, t_stat, p_value
 
 # Streamlit UI
-st.title("📊 A/B Testing Dashboard")
+st.title(" A/B Testing Dashboard")
 df = load_data()
 
 st.write("### Raw Data Preview", df.head())
@@ -47,9 +47,9 @@ st.write(f"**P-value:** {p_value:.4f}")
 
 # Significance interpretation
 if p_value < 0.05:
-    st.success("🎯 Statistically significant difference found between Group A and B.")
+    st.success("Statistically significant difference found between Group A and B.")
 else:
-    st.info("ℹ️ No statistically significant difference found.")
+    st.info(" No statistically significant difference found.")
 
 # Visualization
 fig, ax = plt.subplots()
