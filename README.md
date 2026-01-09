@@ -1,5 +1,5 @@
-# AB Testing-Dashboard-Streamlit-SQLite-Python
-This project demonstrates how to conduct and visualize A/B testing using real-world style data on conversion rates. It features a complete pipeline from data generation to statistical testing, dashboard visualization, and interactive insights using Python, SQLite, and Streamlit.
+# AB Testing Dashboard-Streamlit-SQLite-Python
+This project demonstrates how to conduct and visualize A/B testing using real-world style data on conversion rates. It features a complete pipeline from data generation to statistical testing, dashboard visualization, and interactive insights, built with Python, SQLite, and Streamlit.
 
 **Project Goals**
 - Simulate and store A/B testing data in a lightweight relational database (SQLite)
