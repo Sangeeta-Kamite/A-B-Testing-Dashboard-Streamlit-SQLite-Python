@@ -6,7 +6,7 @@ This project demonstrates how to conduct and visualize A/B testing using real-wo
 - Compare conversion performance between Group A and Group B
 - Apply statistical hypothesis testing (t-test) to assess significance
 - Build a visual and interactive Streamlit dashboard for business insight
-- Deploy on Google Colab using pyngrok for easy web access
+- Deploy on Google Colab using Pyngrok for easy web access
 
 **Dataset Overview**
 Simulated Data: Mimics A/B testing outcomes (conversion or no conversion)
